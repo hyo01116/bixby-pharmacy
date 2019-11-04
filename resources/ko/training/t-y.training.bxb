@@ -1,0 +1,10 @@
+train (t-y0aiv3z13x0uvpri92wvdm484) {
+  utterance ("[g:pharmacyinfo] (약국)[v:Near] 알려줘")
+  plan (Y2BmUCzISCzKTUyu1MtLLYezYYzMvLR8BlWsStIy81LyUhOLYAIMkliV+QGVMDAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572523932526)
+}
+train (t-yjq5f26ubswlaaanbrvp1ieg2) {
+  utterance ("[g:pharmacyinfo] (약국)[v:Near] 위치 찾아줘")
+  plan (Y2BmUCzISCzKTUyu1MtLLYezYYzMvLR8BlWsStIy81LyUhOLYAIMkliV+QGVMDAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572523949410)
+}
