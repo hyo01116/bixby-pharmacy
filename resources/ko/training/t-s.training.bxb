@@ -1,0 +1,5 @@
+train (t-seva04ju10l6i5tbr7cyep7gr) {
+  utterance ("[g:pharmacyinfo] 여기서 제일 가까운 (약국)[v:Near] 찾아줘")
+  plan (Y2BmUCzISCzKTUyu1MtLLYezYYzMvLR8BlWsStIy81LyUhOLYAIMkliV+QGVMDAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572523944708)
+}
