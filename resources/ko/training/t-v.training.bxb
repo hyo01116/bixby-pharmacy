@@ -1,0 +1,5 @@
+train (t-vicofhnhtk7c2qthre9ezdrb3) {
+  utterance ("[g:pharmacyinfo] (약국)[v:Near] 위치 알려줘")
+  plan (Y2BmUCzISCzKTUyu1MtLLYezYYzMvLR8BlWsStIy81LyUhOLYAIMkliV+QGVMDAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572523947539)
+}
