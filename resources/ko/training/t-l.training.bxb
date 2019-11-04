@@ -1,0 +1,5 @@
+train (t-l9njxr3n78wq70tfmcexbgzi8) {
+  utterance ("[g:pharmacyinfo] (약국)[v:Near] 어딨는지 알려줘")
+  plan (Y2BmUCzISCzKTUyu1MtLLYezYYzMvLR8BlWsStIy81LyUhOLYAIMkliV+QGVMDAxMAIxA5BkZAABJggGAA==)
+  last-modified (1572523945628)
+}
