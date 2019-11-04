@@ -1,0 +1,31 @@
+action (findnearpharmacy) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (near) {
+      type (Near)
+      min (Optional) max (One)
+    }
+    computed-input (point){
+      type(Point)
+      min (Optional) max (One)
+      compute{
+        if(exists(near)){
+          intent{
+            goal: Point
+            route:geo.CurrentLocation
+          }
+        }
+      }
+    }
+  }
+  output (pharmacyinfo){
+    on-empty{
+      halt{
+        dialog{
+          template ("no pharmacy")
+        }
+      }
+    }
+  }
+}
