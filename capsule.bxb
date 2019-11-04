@@ -1,0 +1,28 @@
+capsule {
+  id (pharmacy.newpharmacy)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US) {enabled (false)}
+    target (bixby-mobile-ko-KR) {enabled (true)}
+  }
+  runtime-flags {
+    use-input-views-for-selection-list-detail
+    modern-default-view-behavior
+    no-filtering-with-validation
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  capsule-imports{
+    import(viv.geo){
+      as(geo) version(9.21.0)
+    }
+  }
+  permissions{
+    user-profile-access
+  }
+  store-sections{
+    section (HealthAndFitness)
+  }
+}
