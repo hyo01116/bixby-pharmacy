@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (가장 가까운 약국 찾아줘)
+    utterance (약국 찾아줘)
+    utterance (근처에 있는 약국 알려줘)
+  }
+}
