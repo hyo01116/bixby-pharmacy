@@ -1,0 +1,15 @@
+capsule-info{
+  display-name (나의약국알림이)
+  developer-name (pharmacy_company)
+  icon-asset (/images/pharmacy.jpg)
+  description ("현재 위치에서 가장 가까운 약국 정보를 제공합니다.")
+  privacy-policy-url (https://docs.google.com/document/d/e/2PACX-1vQwR8fB2qszVSMDWdLnEbWhumUXJ3EWLawh3VAyATGYoD2NcdDhNTLozzzJiRG1lQjtpLN0j21yupAM/pub)
+  search-keywords{
+    keyword (약국)
+    keyword(주변약국위치)
+  }
+  dispatch-name(나의약국알림이)
+  dispatch-aliases{
+    alias (약국 알림이)
+  }
+}
