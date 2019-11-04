@@ -1,0 +1,16 @@
+layout-macro-def (result){
+  params{
+    param(info){
+      type(pharmacyinfo)
+      min (Required)
+    }
+  }
+  content{
+    paragraph{
+      value{
+        template ("#{value(info)}")
+      }
+      style(Title_XS)
+    }
+  }
+}
